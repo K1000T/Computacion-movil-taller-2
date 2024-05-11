@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode -->
+    <style name="Theme.Taller2.Dark" parent="Theme.MaterialComponents.DayNight">
+        <!-- Colores específicos para el modo nocturno -->
+        <item name="colorPrimary">@color/colorBuff</item>
+        <item name="colorPrimaryVariant">@color/colorBuff</item>
+        <item name="colorOnPrimary">@color/colorBlack</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorTeal200</item>
+        <item name="colorSecondaryVariant">@color/colorTeal700</item>
+        <item name="colorOnSecondary">@color/colorBlack</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
